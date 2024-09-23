@@ -29,7 +29,7 @@ struct ContentView: View {
                     DiceView(number: rightDiceNumber)
                 }
                 Spacer()
-                Button("Roll") {
+                Button("Rollll") {
                     self.leftDiceNumber = Int.random(in: 1...6)
                     self.rightDiceNumber = Int.random(in: 1...6)
                 }
